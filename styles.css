@@ -668,7 +668,7 @@ html {
   text-align: center;
 }
 
-.contact-right form {
+.contact-right .input-wrapper {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -703,6 +703,7 @@ html {
 .input-group label {
   position: absolute;
   left: 0;
+  /* margin-bottom: 2rem; */
   font-family: "Baloo Da 2", serif;
   font-size: 1.8rem;
   color: #4b4b4b;
@@ -712,11 +713,11 @@ html {
 }
 
 .input-label {
-  bottom: 3rem;
+  bottom: 5.5rem;
 }
 
 .message {
-  bottom: 6rem;
+  bottom: 7.5rem;
 }
 
 .field:focus {
@@ -734,6 +735,7 @@ html {
   background-color: burlywood;
   color: #fff;
   margin-top: 2rem;
+  text-align: center;
   border: none;
   outline: none;
   font-family: "Mulish", serif;
